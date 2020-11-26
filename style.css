@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: radial-gradient(circle, 
+                rgba(63,94,251,1) 0%, 
+                rgba(85,15,30,1) 100%);
+
+}
+
+h1,h2 {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+.date {
+    margin: .3rem;
+}
+
+
+
+/* Reusable classes */
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
